@@ -22,10 +22,10 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	placementv1alpha1 "github.com/DanielXLee/clusternet-placementrule-operator/api/v1alpha1"
-	placementutils "github.com/DanielXLee/clusternet-placementrule-operator/controllers/utils"
 	appv1alpha1 "github.com/open-cluster-management/multicloud-operators-deployable/pkg/apis/apps/v1"
 	"github.com/open-cluster-management/multicloud-operators-deployable/pkg/utils"
+	placementv1alpha1 "github.com/open-cluster-management/multicloud-operators-placementrule/pkg/apis/apps/v1"
+	placementutils "github.com/open-cluster-management/multicloud-operators-placementrule/pkg/utils"
 )
 
 // Top priority: placementRef, ignore others
